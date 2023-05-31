@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+*/ reset da minha página
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAB733;
+    color: #030070;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-screen {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.box-title {
+    background-image: url('images/Background\ Amarelo.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 24px;
+}
+
+
+.box-title h1 {
+    font-size: 1em;
+}
+
+.box-title p {
+    font-size: 26px;
+    line-height: 1;
+}
+
+.box-image {
+    padding: 20px;
+}
+
+.box-image img {
+    margin: 16px 0;
+}
+
+
+.link-voltar {
+    background-color: #030070;
+    padding: 0 16px;
+    border-radius: 16px;
+    color: #FF66C1;
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    margin: 0 auto;
+}
